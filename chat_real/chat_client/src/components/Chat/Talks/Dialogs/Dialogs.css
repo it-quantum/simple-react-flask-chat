@@ -1,0 +1,114 @@
+.dialogs-wrapper {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 35%;
+	background-color: lightblue;
+	align-self: center;
+	margin: 10px 0px;
+}
+
+.input-show, .input-hide {
+	display: flex;
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+	background-color: lightblue;
+	height: 110px;
+	box-sizing: border-box;
+}
+
+.dialogs-wrapper input {
+	width: 100%;
+	border: none;
+	padding: 8px;
+	margin-right: 5px;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius: 2px;
+}
+
+.dialogs-wrapper input:focus {
+	border-color: #66afe9;
+	outline: 0;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+.dialogs-wrapper button {
+	border: 0;
+	cursor: pointer;
+	height: 35px;
+	background-color: #3570e6;
+	color: white;
+	font-size: 15px;
+	border-radius: 2px;
+}
+
+.dialogs-list-wrapper {
+	width: 100%;
+  	height: 500px;
+}
+
+.list-show, .list-hide {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow: auto;
+	background-color: lightblue;
+}
+
+.dialogs-list-wrapper ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.dialogs-list-wrapper li {
+	padding: 10px;
+	font-size: 17px;
+	text-align: center;
+}
+
+.dialogs-list-wrapper li:hover {
+	background: #3570e6;
+}
+
+.dialog-link {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.toogle {
+	display: none;
+}
+
+@media (max-width: 992px) {
+	.dialogs-wrapper {
+		height: 50px;
+		padding: 5px;
+		align-self: stretch;
+	}
+	.dialogs-list-wrapper {
+		height: 100px;
+	}
+	.list-hide, .input-hide {
+		display: none;
+	}
+	.toogle {
+		display: block;
+		cursor: pointer;
+		border: 1px solid black;
+		padding: 3px;
+		border-radius: 5px;
+		width: 40px;
+		height: 40px;
+		margin-right: 5px;
+		align-self: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.dialogs-wrapper {
+		flex-basis: 100%;
+	}
+}

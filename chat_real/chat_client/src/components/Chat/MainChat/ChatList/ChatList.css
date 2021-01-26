@@ -1,0 +1,25 @@
+.chat-body {
+	width: 60%;
+	height: 450px;
+	border: 1px solid lightblue;
+	box-sizing: border-box;
+}
+
+.chat-body-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow: auto;
+}
+
+@media (max-width: 992px) {
+	.chat-body {
+		width: 80%;
+	}
+}
+
+@media (max-width: 768px) {
+	.chat-body {
+		width: 100%;
+	}
+}

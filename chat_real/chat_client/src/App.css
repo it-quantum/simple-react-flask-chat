@@ -1,0 +1,8 @@
+.app-container {
+  width: 80vw;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

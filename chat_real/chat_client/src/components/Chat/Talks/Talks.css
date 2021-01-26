@@ -1,0 +1,10 @@
+.talks-body {
+	display: flex;
+	flex-grow: 1;
+}
+
+@media (max-width: 992px) {
+	.talks-body {
+		flex-direction: column;
+	}
+}

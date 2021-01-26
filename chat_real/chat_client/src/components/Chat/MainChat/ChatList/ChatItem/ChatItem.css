@@ -1,0 +1,13 @@
+.chat-item-wrapper {
+	display: flex;
+	padding: 10px;
+}
+
+.chat-item {
+	display: flex;
+	background-color: lightblue;
+	align-items: center;
+	margin-left: 20px;
+	padding: 10px;
+	border-radius: 5px;
+}
