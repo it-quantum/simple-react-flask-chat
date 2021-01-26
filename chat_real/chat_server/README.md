@@ -4,14 +4,14 @@
 
 **For Windows:**  
 Open command prompt and execute the command sequence:  
-python -m venv <virtual environment name> (for example: python -m venv venv)  
-venv\Scripts\activate  
-pip install -r requirements.txt  
-Everything is now ready to start the web server  
+1. python -m venv <virtual environment name> (for example: python -m venv venv)  
+2. venv\Scripts\activate  
+3. pip install -r requirements.txt  
+Everything is now ready to start the web server.  
 
 ## Web server launch
 
 Execute the command sequence:  
-set FLASK_APP=main.py  
-flask run  
-Web server started
+1. set FLASK_APP=main.py  
+2. flask run  
+Web server started.
