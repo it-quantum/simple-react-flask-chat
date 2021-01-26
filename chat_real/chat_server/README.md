@@ -11,11 +11,11 @@ Open command prompt and execute the command sequence:
   
 Everything is now ready to start the web server.  
 
-## Web server launch
+## Web-server launch
 
 Execute the command sequence:  
 
 1. set FLASK_APP=main.py  
 2. flask run  
 
-Web server started.
+Web-server started.
