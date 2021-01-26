@@ -1,1 +1,1 @@
-# simple-react-chat
+# simple-react-flask-chat
